@@ -1,4 +1,4 @@
-package aoc2020;
+package it.valeriobruno.aoc2020;
 
 public class Seat implements Comparable<Seat>
 {

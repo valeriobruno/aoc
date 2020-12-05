@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import it.valeriobruno.aoc2020.Passport;
+
 class Day4Test {
 
 	@Test

@@ -1,4 +1,4 @@
-package aoc2020;
+package it.valeriobruno.aoc2020;
 
 import java.io.IOException;
 import java.nio.file.Files;
