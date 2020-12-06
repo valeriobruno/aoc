@@ -59,7 +59,7 @@ class NiceOrNaughty(var word: String) {
     fun hasDoubleRepetition(): Boolean {
         var result = false
 
-        for (c in 0..word.length - 2 step 2) {
+        for (c in 0..word.length - 2) {
             if (word.indexOf("${word[c]}${word[c + 1]}", c + 2) > 0) {
                 result = true
                 println("${word[c]}${word[c + 1]}")

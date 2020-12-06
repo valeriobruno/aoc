@@ -26,5 +26,6 @@ class Day5Test {
         assertFalse(NiceOrNaughty("aaaxyx").isNice2())
         assertTrue(NiceOrNaughty("aaaaxyx").isNice2())
         assertTrue(NiceOrNaughty("xyxy").isNice2())
+        assertTrue(NiceOrNaughty("xyaya").isNice2())
     }
 }
