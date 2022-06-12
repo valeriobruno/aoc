@@ -68,7 +68,7 @@ class BagNetwork {
         val containerColors = mutableSetOf<String>()
         containerColors.addAll(getBagsContaining(color))
 
-        var lastCount = 0
+        var lastCount: Int
 
         do {
             lastCount = containerColors.size
@@ -88,7 +88,7 @@ class BagNetwork {
         bags.add(color)
 
         while (bags.isNotEmpty()) {
-            val temp = mutableListOf<String>()
+            
 
             val bag = bags.removeAt(0)
             counter++

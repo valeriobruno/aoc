@@ -18,4 +18,20 @@ class Day12Test {
         ferry.navigate(navigation)
         assertEquals(25,ferry.getManhattanDistanceFromOrigin())
     }
+
+    @Test
+    fun testManhattanDistanceWayPoint()
+    {
+        val navigation = listOf("F10",
+            "N3",
+            "F7",
+            "R90",
+            "F11")
+
+        val ferry = FerryWayPoint()
+        ferry.navigate(navigation)
+        assertEquals(286,ferry.getManhattanDistanceFromOrigin())
+    }
+
+
 }

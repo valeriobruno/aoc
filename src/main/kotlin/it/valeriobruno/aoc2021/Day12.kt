@@ -60,8 +60,8 @@ class Graph() {
         var nrPaths = 0
         do {
 
-            val topNode = nextNodes.removeLast()!!
-            lastPop = topNode
+            val topNode = nextNodes.removeLast()
+
 
             currentPath.add(topNode)
 
@@ -77,7 +77,8 @@ class Graph() {
             }
             if (links.isEmpty()) {
                 //nextNodes.removeLast()
-                currentPath.removeLast()
+                lastPop = currentPath.removeLast()
+
 
             } else nextNodes.addAll(links)
 
