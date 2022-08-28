@@ -14,7 +14,6 @@ class SeatMap(lines: List<String>, val checkSeatsInLine: Boolean, val busySeatsT
     fun finalOccupiedSeats(): Int {
 
         var doesChange: Boolean
-        var busySeats: Int
         do {
             doesChange = false
 

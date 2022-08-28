@@ -4,7 +4,7 @@ import java.io.File
 import java.util.regex.Pattern
 
 class BinaryLightBoard {
-    private var board = Array<Array<Boolean>>(1000) { pos -> Array<Boolean>(1000) { pos -> false } }
+    private var board = Array<Array<Boolean>>(1000) { _ -> Array<Boolean>(1000) { _ -> false } }
 
     fun turnOn(sx: Int, sy: Int, ex: Int, ey: Int) {
         for (x in sx..ex)
@@ -55,7 +55,7 @@ class BinaryLightBoard {
 }
 
 class NumericLightBoard {
-    private var board = Array<Array<Int>>(1000) { pos -> Array<Int>(1000) { pos -> 0 } }
+    private var board = Array<Array<Int>>(1000) { _ -> Array<Int>(1000) { _ -> 0 } }
 
     fun turnOn(sx: Int, sy: Int, ex: Int, ey: Int) {
         for (x in sx..ex)
