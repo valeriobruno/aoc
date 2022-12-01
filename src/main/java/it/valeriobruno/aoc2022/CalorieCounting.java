@@ -7,10 +7,6 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class CalorieCounting {
-/*
-Optional[67622]
-201491
- */
    TreeSet<Integer> sortedFood = new TreeSet<>(Comparator.naturalOrder());
 
    public void loadFile(Path path) throws IOException {
