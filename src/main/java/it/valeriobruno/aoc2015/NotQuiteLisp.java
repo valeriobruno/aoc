@@ -15,7 +15,7 @@ public class NotQuiteLisp {
         {
             parseParenthesis((char) parenthesis);
             if(floor == -1 && basementPosition == null)
-                basementPosition =steps;
+                basementPosition = steps;
 
             steps++;
         }
