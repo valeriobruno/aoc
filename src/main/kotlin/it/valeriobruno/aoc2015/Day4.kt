@@ -23,6 +23,4 @@ fun main()
     while(! md5Message("$key$num").startWith5zeros()) num++
 
     println(num)
-
-
 }

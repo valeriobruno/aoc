@@ -11,7 +11,7 @@ public class CampCleanup {
 
     static class CleanPair
     {
-        Pattern pattern = Pattern.compile("(\\d+)-(\\d+),(\\d+)-(\\d+)");
+        static Pattern pattern = Pattern.compile("(\\d+)-(\\d+),(\\d+)-(\\d+)");
         int lstart,lend,rstart,rend;
 
         CleanPair(String line)
