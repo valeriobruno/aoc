@@ -91,11 +91,11 @@ public class RopeBridge {
 
             /*this method is called after head has moved, to adjust tail to follow head.*/
 
-            if (Math.abs(hx - tx) > 1 && hy==ty)
+            if (Math.abs(hx - tx) == 2 && hy==ty)
                 tx += Math.signum(hx - tx) * 1;
-            else if (Math.abs(hy - ty) > 1 && hx==tx)
+            else if (Math.abs(hy - ty) == 2 && hx==tx)
                 ty += Math.signum(hy - ty) * 1;
-            else if (Math.abs(hy - ty) > 1)
+            else if (Math.abs(hy - ty) == 2 )
             {
                 ty += Math.signum(hy - ty) * 1;
                 tx += Math.signum(hx - tx) * 1;
